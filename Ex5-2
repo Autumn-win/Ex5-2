@@ -1,0 +1,17 @@
+#include <iostream>
+int main()
+{
+    int a,b;
+    printf("please input your age \n");
+    printf("please input your friend's age \n");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    if(a>b)
+        printf("Your age is older and is %d years old", a);
+
+    else
+        printf("Your friend age is older and is %d years old", b);
+       
+   
+    return 0;
+}
